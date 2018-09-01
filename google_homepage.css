@@ -1,0 +1,174 @@
+/* Positioning the google logo. */
+.logo {
+	position: absolute;
+	left: 50%;
+	top: 40%;
+	transform: translate(-50%,-50%);
+	color: green;
+	font-size: 3em;
+}
+
+/* Positioning and customizing the search bar. */
+.search input {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	height: 30px;
+	width: 400px;
+	text-align: left;
+	font-size: 15px;
+	font-family: arial, helvetica, sans-serif;
+	box-shadow: 10px 10px 5px grey;
+}
+
+/* Positioning the search buttons beneath the search bar. */
+.search .search_buttons {
+	position: absolute;
+	left: 50%;
+	top: 57.5%;
+	transform: translate(-50%, -50%)
+}
+
+/* Increasing the gap between the search buttons. */
+.search span:after {
+	content: " ";
+	display: inline-block;
+	width: 20px;
+}
+
+/* Customizing the search buttons. */
+.search_buttons button {
+	background-color: #f2f2f2;
+	border-bottom-left-radius: 2px;
+	border-bottom-right-radius: 2px;
+	border-bottom-style: solid;
+	color: #757575;
+	display: inline-block;
+	font-weight: 700;
+	height: 36px;
+	width: 125.75px;
+	border: none;
+}
+
+/* Moving top nav bar to top-right of web page. */
+.top_bar {
+	position: absolute;
+	top: 0%;
+	right: 2%
+}
+
+/* Customizing the top links. */
+.top_bar a {
+	color: black;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	line-height: 24px;
+	text-align: right;
+}
+/* Customizing the gmail link. */
+.top_bar .gmail_link:hover {
+	text-decoration: underline;
+}
+
+/* Cusmages link. */
+.top_bar .images_link:hover {
+	text-decoration: underline;
+}
+
+/* Sign in button. */
+.top_bar button {
+	background-color: #4285f4;
+	background-size: auto;
+	height: 30px;;
+	width: auto;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display:inline-block;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 0px 12px;
+}
+
+/* Increase space between span elements in top bar. */
+.top_bar span:after {
+	content: " ";
+	display: inline-block;
+	width: 10px;
+}
+
+/* Reduce gap between google letters. */
+.logo h1 {
+	font-size: 0;
+}
+.logo span {
+	font-size: 120px;
+	font-family: arial sans-serif;
+}
+
+/* Positioning and customizing the first footer bar. */
+.first_footer_bar {
+	position: absolute;
+	display: block;
+	left: 0;
+	bottom: 4%;
+	width: 100%;
+	height: auto;
+	background-color: #f2f2f2;
+	color: rgba(0,0,0,.54);
+	text-align: left;
+	font-family: arial, sans-serif;
+	font-size: 15px;
+	padding-left: 20px;
+}
+
+/* Positioning and customizing the second footer bar. */
+.second_footer_bar {
+	position: absolute;
+	display: block;
+	left: 0%;
+	bottom: 0%;
+	width: 100%;
+	height: auto;
+	background-color: #f2f2f2;
+	color: rgba(0,0,0,.54);
+	font-family: arial, sans-serif;
+	font-size: 15px;
+	padding-left: 20px;
+}
+
+/* Customizing the links in the second footer bar. */
+.second_footer_bar a {
+	color: rgba(0,0,0,.54);
+	text-decoration: none;
+	font-size: 13px;
+}
+
+/* Making the links in the 2nd footer bar underlined upon hover. */
+.second_footer_bar a:hover {
+	text-decoration: underline
+}
+
+/* Moving the second half of links in the 2nd footer bar to be aligned right. */
+.second_footer_second_half {
+	position: absolute;
+	right: 0%;
+}
+
+/* Increasing the space between the links in the 2nd footer bar. */
+.second_footer_bar span:after {
+	content: " ";
+	display: inline-block;
+	width: 25px;
+}
+
+/* Customizing and positioning the google voice assistant logo.*/
+.search .voice_logo {
+	position: absolute;
+	left: 60%;
+	top: 50%;
+	transform: translate(-50%, -50%)
+}
